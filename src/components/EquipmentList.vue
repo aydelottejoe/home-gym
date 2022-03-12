@@ -1,7 +1,7 @@
 <template>
 
 <div class="wrapper">
-    <img src="/images/equipment/bench.jpeg">
+    <p>TEST: </p><img :src="'/images/products/cucumber.jpg'">
   <div class="products">
     <div class="product" v-for="product in products" :key="product.id">
       <div class="info">
