@@ -44,7 +44,7 @@ let equipment = [{
   {
     id: 7,
     name: "Smith Machine",
-    price: "$9.24",
+    price: "$194.99",
     country: "Brazil",
     image: 'smith-machine.jpeg'
   }

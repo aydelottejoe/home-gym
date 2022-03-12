@@ -7,16 +7,16 @@
       </form>
     </div>
   </div>
-  <ProductList :products="products" />
+  <EquipmentList :products="products" />
 </div>
 </template>
 
 <script>
-import ProductList from "../components/ProductList.vue"
+import EquipmentList from "../components/EquipmentList.vue"
 export default {
   name: 'HomeView',
   components: {
-    ProductList
+    EquipmentList
   },
   data() {
     return {
